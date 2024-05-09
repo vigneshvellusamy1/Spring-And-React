@@ -5,8 +5,6 @@ import { useEffect } from 'react';
 import AllService from '../Service/AllService';
 import service from '../Service/AllService';
 
-
-
 export default function UpdateUser() {
 
     let navigate=useNavigate();
@@ -24,7 +22,7 @@ export default function UpdateUser() {
         AllService.finduser(uid).then((res)=>{  
             setUser(res.data);        
          }).catch((err)=>console.log(err))  
-     },[])
+     },[uid])
      const[idList,setidList]=React.useState([]);
     
 

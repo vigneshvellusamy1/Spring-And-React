@@ -1,5 +1,4 @@
 import React from 'react'
-import AllService from '../Service/AllService';
 import { useNavigate, Link } from "react-router-dom"
 import service from '../Service/AllService';
 
@@ -28,7 +27,7 @@ export default function InsertItem() {
             <div className="card-header">
               <h5 className="card-title">Add Item</h5>
             </div>
-            <img width=" 400px " src=""  />
+            <img width=" 400px " src=""  alt=''/>
       
             <div className="card-body">
               <form onSubmit={onsubmit}>

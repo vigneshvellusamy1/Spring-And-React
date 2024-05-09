@@ -22,7 +22,7 @@ export default function Updatelib() {
         console.log(res.data)
         setLibr(res.data);        
      }).catch((err)=>console.log(err))  
- },[])
+ },[lid])
 
   const handleChange = (e) => {
     setLibr({ ...libr, [e.target.name]: e.target.value });

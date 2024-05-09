@@ -1,4 +1,3 @@
-
 import React, { useEffect } from "react";
 import { useState } from "react";
 import { Link } from "react-router-dom";
@@ -21,7 +20,7 @@ export default function HomeUser() {
     };
     getAllUser();
   }, []);
-  const [userId,setUserId]=useState("");
+  
 
   const removeUser = async (e, userId) => {
     e.preventDefault();

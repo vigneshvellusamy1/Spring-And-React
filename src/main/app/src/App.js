@@ -7,8 +7,6 @@ import Insert from './Component/Insert'; // Importing the Insert component from 
 import Navbar from './Component/Navbar'; // Importing the Navbar component from the Components folder
 import InsertItem from './Component/InsertItem'; // Importing the InsertItem component from the Components folder
 import UpdateUser from './Component/UpdateUser'; // Importing the UpdateUser component from the Components folder
-import HomeLib from './Component/HomeItem'; // Importing the HomeItem component from the Components folder
-import Updatelib from './Component/UpdateItem'; // Importing the UpdateItem component from the Components folder
 import HomeItem from './Component/HomeItem';
 
 function App() {

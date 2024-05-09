@@ -46,7 +46,7 @@ export default function HomeItem() {
        <div className="container mt-4">
       <h1 className="text-center">Item List</h1>
       <Link className="btn btn-btn-outline-light me-6 " to="/insertItem">
-      <img src=""  />
+      <img src=""  alt=''/>
           <button class="btn btn-success btn-lg">Add Item</button>
         </Link>
       <table className="table table-bordered table-striped"style={{fontSize: "25px"}}>
